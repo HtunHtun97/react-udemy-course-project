@@ -32,7 +32,6 @@ export const purchaseBurger = (orderData, token) => {
       })
       .catch((error) => {
         dispatch(purchaseBurgerFail(error));
-        console.log(error);
       });
   };
 };
